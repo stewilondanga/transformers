@@ -9,6 +9,7 @@ h1{
 }
 p{
   font-weight: bold;
+  color:#F57612;
 }
 h3{
   text-align: left;
@@ -24,6 +25,8 @@ h3{
 .col-sm-3{
   color:#039C8E;
   background-image:url(../assets/ring.gif);
+  background-repeat: no-repeat;
+  background-size:100%;
   height:200px;
 }
 .col-sm-4{
