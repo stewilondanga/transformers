@@ -1,0 +1,19 @@
+form{
+  text-align:center;
+}
+
+input{
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+/*
+first-child is used to select the first element in another element
+*/
+
+p:first-child{
+  width:400px;
+  text-align:center;
+  margin:auto;
+  margin-top: 10px;
+}
