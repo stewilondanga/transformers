@@ -1,0 +1,44 @@
+body {
+  background: url(../assets/max.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+textarea {
+  outline: none;
+}
+textarea {
+  resize: none;
+}
+textarea {
+  overflow: auto;
+}
+.w3-container{
+  text-align: left;
+}
+.projects {
+    background:lightgrey;
+    padding: 30px 0;
+}
+
+
+.projects .projects-container {
+    display: flex;
+    justify-content: center;
+}
+
+.projects-container .project {
+    flex-grow: 1;
+    border-right: 1px solid grey;
+    text-align: center;
+}
+
+.project {
+    font-size: 20px;
+}
+#demo{
+  margin-left: 30;
+
+}
+.fa{
+  margin-right: ;
+}
