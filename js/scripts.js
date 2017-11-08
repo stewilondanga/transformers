@@ -33,6 +33,6 @@ function checkTime(i) {
 $(document).ready(function(){
   $("#button").click(function(){
     //action
-    alert("Lets communicate!");
+    alert("Once you type your text in the form and click send it is printed then a notification is sent");
   });
 });
