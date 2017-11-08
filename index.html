@@ -46,7 +46,20 @@
   </div>
   <i class="ion-paper-airplane"></i>
 
+  <input id="inputFahrenheit" type="number" placeholder="Fahrenheit"
+  oninput="temperatureConverter(this.value)"
+  onchange="temperatureConverter(this.value)">
 
+
+
+
+    <label>Kelvin</label>
+    <input id="inputKelvin" type="number" placeholder="Kelvin" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
+  </p>
+  <p>Celcius <span id="outputCelcius"></span></p>
+  <button onclick="document.getElementById('inputFahrenheit').value = ''">Clear input field</button>
+
+    </div>
 
 
 
