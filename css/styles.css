@@ -3,13 +3,21 @@
   background-repeat: no-repeat;
   background-size: 100%;
   text-align: center;
+  font-family: 'Rokkitt', serif;
+
+}
+.jumbotron:hover{
+  opacity: 0.5;
+  transition: all 3s;
 }
 h1{
-  color:#08E8AE;
+  color: blue;
 }
 p{
   font-weight: bold;
   color:#E82708;
+  font-family: 'Rokkitt', serif;
+
 }
 h3{
   text-align: left;
@@ -39,9 +47,12 @@ body{
   background-image:url(../assets/background.jpeg);
   background-repeat: no-repeat;
   background-size: 100%;
+  font-family: 'Rokkitt', serif;
+
 }
 form{
   text-align:center;
+  font-family: 'Rokkitt', serif;
 }
 
 input{
@@ -64,4 +75,14 @@ p:first-child{
   color:#F55707;
   text-align:center;
   background-color: #1E1B03;
+  font-family: 'Rokkitt', serif;
+}
+button {
+  border-radius: 4px;
+}
+button:hover {
+  opacity: -0.3;
+  transition: 2s;
+  color: black;
+
 }
