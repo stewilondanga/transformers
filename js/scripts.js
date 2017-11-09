@@ -7,6 +7,7 @@ $('#form').on('submit', function(event) {
   var input = $("#input").val();
   $('#text-output').text("You typed: " + input);
 
+
   //Prevent the page from reloading
   event.preventDefault();
 });
@@ -30,9 +31,15 @@ function checkTime(i) {
   return i;
 }
 
-$(document).ready(function(){
-  $("#button").click(function(){
+$(document).ready(function() {
+  $("#button").click(function() {
     //action
     alert("Once you type your text in the form and click send it is printed then a notification is sent");
+  });
+});
+
+$(document).ready(function() {
+  $("#changes").click(function() {
+    $("#change").text("information sets us in motion");
   });
 });
