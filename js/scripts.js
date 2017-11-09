@@ -13,6 +13,19 @@ $('#form').on('submit', function(event) {
  });
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
  function temperatureConverter(valNum) {
     valNum = parseFloat(valNum);
     document.getElementById("outputCelcius").innerHTML=valNum-273.15;
@@ -28,3 +41,6 @@ $('#form').on('submit', function(event) {
        // After 3 seconds, remove the show class from DIV
        setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
    }
+
+
+   
